@@ -13,6 +13,11 @@
       Lorem Ipsum
     </div>
   </div>
+  <div class="relative flex flex-col text-white py-2 bg-slate-500 rounded-lg">
+  <video controls>
+    <source src="@/assets/rabbit320.mp4" type="video/mp4" />
+  </video>
+  </div>
   <div class="relative flex flex-col">
     <textarea type="text" class="w-full rounded bg-slate-800 py-1 pl-2 text-white focus:outline-none focus:ring focus:ring-violet-400 resize-y" placeholder="Text"></textarea>
   </div>
